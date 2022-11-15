@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(241, 163, 224);
+}
+.container{
+
+   display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 2rem;
+    margin-top: 4rem;
+    justify-content: center;
+    background-color: rgb(182, 8, 130);
+    width: 30vw;
+    height: 12vw;
+    border-radius: 20vw;
+}
+.output{
+    border-radius:10vw ;
+    margin-top:4rem ;
+    width: 450px;
+    height: 3vw;
+    text-align: center;
+    background-color: rgb(87, 4, 69);
+    margin: 4rem;
+    color: white;
+    
+}
+#submit-button{
+    margin:auto ;
+    margin-top: 1rem;
+    width: 20vw;
+    display: block;
+    border-radius: 6px;
+    background-color: rgb(250, 119, 239) ;
+    cursor: pointer;
+}
